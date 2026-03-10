@@ -1,0 +1,44 @@
+package Practice;
+
+public class basicJavaOperations {
+	
+	public static void main(String[] args) {
+		
+	//Reverse the string 
+		String str = "Hi Huli";
+		String reversed = new StringBuilder(str).reverse().toString();
+		System.out.println(reversed);
+		
+		
+	// arrange the words in reverse
+		
+		String greeting = "Hi sir how are you";
+		
+		String[] words= greeting.split(" ");
+	//	int wordLengt = words.length;
+		
+		StringBuilder result = new StringBuilder();
+		
+		for(int i=words.length-1; i>=0; i--) {
+			
+			result.append(words[i]);
+			
+			if(i!=0) {
+				result.append(" ");
+			}
+			
+			
+			
+			
+		}
+		
+		
+		System.out.println(result.toString());
+		
+	}
+	
+	
+	
+	
+
+}

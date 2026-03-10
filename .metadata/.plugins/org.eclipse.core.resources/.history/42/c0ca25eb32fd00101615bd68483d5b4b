@@ -1,0 +1,23 @@
+package Practice;
+
+public class basicJavaOperations {
+	
+	public static void main(String[] args) {
+		
+	//Reverse the string 
+		String str = "Hi Huli";
+		String reversed = new StringBuilder(str).reverse().toString();
+		System.out.println(reversed);
+		
+		
+	// reverse the string without reversing the words
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}
